@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Style Changer",
+  "description": "Change background color, font size, and font family of the current page",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/paint.png"
+    }
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "icons": {
+    "128": "images/paint.png"
+  }
+}
